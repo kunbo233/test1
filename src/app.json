@@ -5,19 +5,25 @@
   ],
   "subPackages":[
     {
-      "root": "pages/index1",
+      "root": "pages/thisIsSubPackage1",
       "pages": [
         "index"
       ]
     },
     {
-      "root": "pages/index2",
+      "root": "pages/thisIsSubPackage2",
       "pages": [
         "index"
       ]
     },
     {
-      "root": "pages/index3",
+      "root": "pages/thisIsSubPackage3",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "pages/thisIsSubPackage4",
       "pages": [
         "index"
       ]

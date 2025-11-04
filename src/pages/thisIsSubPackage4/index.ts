@@ -1,5 +1,8 @@
-import { test1 } from '@/action/test1'
+import { test2 } from '@/action/test2'
+import { test3 } from '@/action/test3'
+import { test4 } from '@/action/test4'
 import { AES } from 'crypto-es'
+
 Page({
   data: {
     hello: {
@@ -21,6 +24,8 @@ Page({
   },
   onClick() {
     console.log('on click', AES)
-    test1()
+    test2()
+    test3()
+    test4()
   },
 })
